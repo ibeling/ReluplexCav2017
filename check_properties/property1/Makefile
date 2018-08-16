@@ -31,6 +31,8 @@ SOURCES += \
 	nnet.cpp \
 	main.cpp \
 
+$(info cflags $(CFLAGS))
+
 TARGET = property1.elf
 
 include $(ROOT_DIR)/Rules.mk
